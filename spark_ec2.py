@@ -19,6 +19,12 @@
 # limitations under the License.
 #
 
+# This script is extended from "spark_ec2.py" in Spark 1.5.1. I added the
+# configuration to support master node running as spot-instance. Please
+# see "--master-spot-price" setting.
+#
+# San-Chuan Hung (2015)
+
 from __future__ import division, print_function, with_statement
 
 import codecs
